@@ -229,7 +229,7 @@ pmem_deep_flush(const void *addr, size_t len)
 
 	VALGRIND_DO_CHECK_MEM_IS_ADDRESSABLE(addr, len);
 
-	Funcs.deep_flush(addr, len);
+	//Funcs.deep_flush(addr, len);
 }
 
 /*
@@ -242,7 +242,7 @@ pmem_flush(const void *addr, size_t len)
 
 	VALGRIND_DO_CHECK_MEM_IS_ADDRESSABLE(addr, len);
 
-	Funcs.flush(addr, len);
+	//Funcs.flush(addr, len);
 }
 
 /*
